@@ -5,4 +5,4 @@ warp-set = ${PRIMARY_COLOR}Created warp: <event type="hover" text="${TERTIARY_CO
 warps = ${PRIMARY_COLOR}Warps (/warp <name>): ${SECONDARY_COLOR}${WARPS}
 warp-delete = ${PRIMARY_COLOR}Deleted warp: ${SECONDARY_COLOR}${LAST_WARP}
 warp-not-found = ${PRIMARY_COLOR}Warp not found: <event type="hover" text="${TERTIARY_COLOR}Click to put ${LAST_WARP} into your chatbox"><event type="suggest" text="/warp ${LAST_WARP}">${SECONDARY_COLOR}${LAST_WARP}</event></event>
-
+teleport-starting = ${PRIMARY_COLOR}Teleporting you in ${SECONDARY_COLOR}${TELEPORT_DELAY} seconds
