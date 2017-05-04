@@ -4,3 +4,5 @@ argument-required = ${PRIMARY_ERROR_COLOR}Missing argument: ${SECONDARY_ERROR_CO
 warp-set = ${PRIMARY_COLOR}Created warp: <event type="hover" text="${TERTIARY_COLOR}Click to go to ${LAST_WARP}"><event type="run" text="/warp ${LAST_WARP}">${SECONDARY_COLOR}${LAST_WARP}</event></event>
 warps = ${PRIMARY_COLOR}Warps (/warp <name>): ${SECONDARY_COLOR}${WARPS}
 warp-delete = ${PRIMARY_COLOR}Deleted warp: ${SECONDARY_COLOR}${LAST_WARP}
+warp-not-found = ${PRIMARY_COLOR}Warp not found: <event type="hover" text="${TERTIARY_COLOR}Click to put ${LAST_WARP} into your chatbox"><event type="suggest" text="/warp ${LAST_WARP}">${SECONDARY_COLOR}${LAST_WARP}</event></event>
+
