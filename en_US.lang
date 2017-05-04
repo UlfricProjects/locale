@@ -1,6 +1,6 @@
 permission-missing = ${PRIMARY_COLOR}Missing required permission: ${WARNING_COLOR}${PERMISSION_FAILED}${PRIMARY_COLOR}.
 rule-not-passed = ${PRIMARY_COLOR}Rule failed: ${WARNING_COLOR}${RULE_FAILED}${PRIMARY_COLOR}.
-argument-required = ${PRIMARY_COLOR}Missing argument: ${WARNING_COLOR}${RULE_FAILED}${PRIMARY_COLOR}.
+argument-required = ${PRIMARY_COLOR}Missing argument: ${WARNING_COLOR}${ARGUMENT_FAILED}${PRIMARY_COLOR}.
 warp-set = ${PRIMARY_COLOR}Created warp: <event type="hover" text="${BUTTON_COLOR}Click to go to ${LAST_WARP}"><event type="run" text="/warp ${LAST_WARP}">${DETAIL_COLOR}${LAST_WARP}</event></event>${PRIMARY_COLOR}.
 warps = ${PRIMARY_COLOR}Warps (/warp <name>): ${DETAIL_COLOR}${WARPS}${PRIMARY_COLOR}.
 warp-delete = ${PRIMARY_COLOR}Deleted warp: ${DETAIL_COLOR}${LAST_WARP}${PRIMARY_COLOR}.
@@ -10,4 +10,4 @@ teleport-cancelled = ${PRIMARY_COLOR}Your teleport was ${DETAIL_COLOR}cancelled$
 spawn-set = <event type="hover" text="${BUTTON_COLOR}Click to go to spawn"><event type="run" text="/spawn">${PRIMARY_COLOR}Spawn was set to your ${DETAIL_COLOR}current location${PRIMARY_COLOR}.</event></event>
 spawn-not-set = <event type="hover" text="${BUTTON_COLOR}Click to set spawn to your current location"><event type="run" text="/spawn">${WARNING_COLOR}Spawn is not set.</event></event>
 shutdown-disconnect = &6&lSERVER REBOOT\n&7&o${REBOOT_SPASH}\n${PRIMARY_COLOR}Follow us on Twitter ${DETAIL_COLOR}${TWITTER_HANDLE}
-kick-disconnect = ${WARNING_COLOR}You were kicked!\n\n${PRIMARY_COLOR}Punishment ID: ${DETAIL_COLOR}${LAST_PUNISHED_ID}\n${PRIMARY_COLOR}Punisher: ${DETAIL_COLOR}${LAST_PUNISHER_NAME}\nReason: ${DETAIL_COLOR}${LAST_PUNISHED_REASON}\n\n&dYou may rejoin the server.
+kick-disconnect = ${WARNING_COLOR}You were kicked!\n\n${PRIMARY_COLOR}ID: ${DETAIL_COLOR}${LAST_PUNISHED_ID}\n${PRIMARY_COLOR}Punisher: ${DETAIL_COLOR}${LAST_PUNISHER_NAME}\nReason: ${DETAIL_COLOR}${LAST_PUNISHED_REASON}\n\n&dYou may rejoin the server.
