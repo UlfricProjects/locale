@@ -1,0 +1,4 @@
+permission-missing = ${PRIMARY_ERROR_COLOR}Missing required permission: ${SECONDARY_ERROR_COLOR}${PERMISSION_FAILED}
+rule-not-passed = ${PRIMARY_ERROR_COLOR}Rule failed: ${SECONDARY_ERROR_COLOR}${RULE_FAILED}
+argument-required = ${PRIMARY_ERROR_COLOR}Missing argument: ${SECONDARY_ERROR_COLOR}${RULE_FAILED}
+warp-set = ${PRIMARY_COLOR}Created warp: <event type="hover" text="${TERTIARY_COLOR}Click to go to ${LAST_WARP}"><event type="run" text="/warp ${LAST_WARP}">${SECONDARY_COLOR}${LAST_WARP}</event></event>
