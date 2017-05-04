@@ -1,14 +1,13 @@
-permission-missing = ${PRIMARY_ERROR_COLOR}Missing required permission: ${SECONDARY_ERROR_COLOR}${PERMISSION_FAILED}
-rule-not-passed = ${PRIMARY_ERROR_COLOR}Rule failed: ${SECONDARY_ERROR_COLOR}${RULE_FAILED}
-argument-required = ${PRIMARY_ERROR_COLOR}Missing argument: ${SECONDARY_ERROR_COLOR}${RULE_FAILED}
-warp-set = ${PRIMARY_COLOR}Created warp: <event type="hover" text="${TERTIARY_COLOR}Click to go to ${LAST_WARP}"><event type="run" text="/warp ${LAST_WARP}">${SECONDARY_COLOR}${LAST_WARP}</event></event>
-warps = ${PRIMARY_COLOR}Warps (/warp <name>): ${SECONDARY_COLOR}${WARPS}
-warp-delete = ${PRIMARY_COLOR}Deleted warp: ${SECONDARY_COLOR}${LAST_WARP}
-warp-not-found = ${PRIMARY_COLOR}Warp not found: <event type="hover" text="${TERTIARY_COLOR}Click to put ${LAST_WARP} into your chatbox"><event type="suggest" text="/warp ${LAST_WARP}">${SECONDARY_COLOR}${LAST_WARP}</event></event>
-teleport-starting = ${PRIMARY_COLOR}Teleporting you in ${SECONDARY_COLOR}${TELEPORT_DELAY} seconds
-teleport-cancelled = ${PRIMARY_COLOR}Your teleport was cancelled!
-spawn-set = <event type="hover" text="${TERTIARY_COLOR}Click to go to spawn"><event type="run" text="/spawn">${PRIMARY_COLOR}Spawn was set to your current location</event></event>
-spawn-not-set = <event type="hover" text="${TERTIARY_COLOR}Click to set spawn to your current location"><event type="run" text="/spawn">${PRIMARY_ERROR_COLOR}Spawn is not set</event></event>
-shutdown-disconnect = &6&lSERVER REBOOT\n&7&o${REBOOT_SPASH}\n${PRIMARY_SOCIAL_MEDIA}
-primary-social-media = "<event type="url" text="https://twitter.com/${TWITTER_HANDLE}">${PRIMARY_COLOR}Follow us on Twitter ${SECONDARY_COLOR}${TWITTER_HANDLE}</event>"
-kick-disconnect = ${PRIMARY_ERROR_COLOR}You were kicked!\n\n${PRIMARY_COLOR}Punishment ID: ${SECONDARY_COLOR}${LAST_PUNISHED_ID}\n${PRIMARY_COLOR}Punisher: ${SECONDARY_COLOR}${LAST_PUNISHER_NAME}\nReason: ${SECONDARY_COLOR}${LAST_PUNISHED_REASON}\n\n&dYou may rejoin the server.
+permission-missing = ${PRIMARY_COLOR}Missing required permission: ${WARNING_COLOR}${PERMISSION_FAILED}${PRIMARY_COLOR}.
+rule-not-passed = ${PRIMARY_COLOR}Rule failed: ${WARNING_COLOR}${RULE_FAILED}${PRIMARY_COLOR}.
+argument-required = ${PRIMARY_COLOR}Missing argument: ${WARNING_COLOR}${RULE_FAILED}${PRIMARY_COLOR}.
+warp-set = ${PRIMARY_COLOR}Created warp: <event type="hover" text="${BUTTON_COLOR}Click to go to ${LAST_WARP}"><event type="run" text="/warp ${LAST_WARP}">${DETAIL_COLOR}${LAST_WARP}</event></event>${PRIMARY_COLOR}.
+warps = ${PRIMARY_COLOR}Warps (/warp <name>): ${DETAIL_COLOR}${WARPS}${PRIMARY_COLOR}.
+warp-delete = ${PRIMARY_COLOR}Deleted warp: ${DETAIL_COLOR}${LAST_WARP}${PRIMARY_COLOR}.
+warp-not-found = ${PRIMARY_COLOR}Warp not found: <event type="hover" text="${BUTTON_COLOR}Click to put ${LAST_WARP} into your chatbox"><event type="suggest" text="/warp ${LAST_WARP}">${DETAIL_COLOR}${LAST_WARP}</event></event>${PRIMARY_COLOR}.
+teleport-starting = ${PRIMARY_COLOR}Teleporting you in ${DETAIL_COLOR}${TELEPORT_DELAY} seconds${PRIMARY_COLOR}.
+teleport-cancelled = ${PRIMARY_COLOR}Your teleport was ${DETAIL_COLOR}cancelled${PRIMARY_COLOR}.
+spawn-set = <event type="hover" text="${BUTTON_COLOR}Click to go to spawn"><event type="run" text="/spawn">${PRIMARY_COLOR}Spawn was set to your ${DETAIL_COLOR}current location${PRIMARY_COLOR}.</event></event>
+spawn-not-set = <event type="hover" text="${BUTTON_COLOR}Click to set spawn to your current location"><event type="run" text="/spawn">${WARNING_COLOR}Spawn is not set.</event></event>
+shutdown-disconnect = &6&lSERVER REBOOT\n&7&o${REBOOT_SPASH}\n${PRIMARY_COLOR}Follow us on Twitter ${DETAIL_COLOR}${TWITTER_HANDLE}
+kick-disconnect = ${WARNING_COLOR}You were kicked!\n\n${PRIMARY_COLOR}Punishment ID: ${DETAIL_COLOR}${LAST_PUNISHED_ID}\n${PRIMARY_COLOR}Punisher: ${DETAIL_COLOR}${LAST_PUNISHER_NAME}\nReason: ${DETAIL_COLOR}${LAST_PUNISHED_REASON}\n\n&dYou may rejoin the server.
