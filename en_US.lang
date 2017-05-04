@@ -9,3 +9,5 @@ teleport-starting = ${PRIMARY_COLOR}Teleporting you in ${SECONDARY_COLOR}${TELEP
 teleport-cancelled = ${PRIMARY_COLOR}Your teleport was cancelled!
 spawn-set = <event type="hover" text="${TERTIARY_COLOR}Click to go to spawn"><event type="run" text="/spawn">${PRIMARY_COLOR}Spawn was set to your current location</event></event>
 spawn-not-set = <event type="hover" text="${TERTIARY_COLOR}Click to set spawn to your current location"><event type="run" text="/spawn">${PRIMARY_ERROR_COLOR}Spawn is not set</event></event>
+shutdown-disconnect = &6&lSERVER REBOOT\n&7&o${REBOOT_SPASH}\n${PRIMARY_SOCIAL_MEDIA}
+primary-social-media = "<event type="url" text="https://twitter.com/${TWITTER_HANDLE}">${PRIMARY_COLOR}Follow us on Twitter ${SECONDARY_COLOR}${TWITTER_HANDLE}</event>"
