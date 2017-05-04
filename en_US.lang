@@ -6,3 +6,6 @@ warps = ${PRIMARY_COLOR}Warps (/warp <name>): ${SECONDARY_COLOR}${WARPS}
 warp-delete = ${PRIMARY_COLOR}Deleted warp: ${SECONDARY_COLOR}${LAST_WARP}
 warp-not-found = ${PRIMARY_COLOR}Warp not found: <event type="hover" text="${TERTIARY_COLOR}Click to put ${LAST_WARP} into your chatbox"><event type="suggest" text="/warp ${LAST_WARP}">${SECONDARY_COLOR}${LAST_WARP}</event></event>
 teleport-starting = ${PRIMARY_COLOR}Teleporting you in ${SECONDARY_COLOR}${TELEPORT_DELAY} seconds
+teleport-cancelled = ${PRIMARY_COLOR}Your teleport was cancelled!
+spawn-set = <event type="hover" text="${TERTIARY_COLOR}Click to go to spawn"><event type="run" text="/spawn">${PRIMARY_COLOR}Spawn was set to your current location</event></event>
+spawn-not-set = <event type="hover" text="${TERTIARY_COLOR}Click to set spawn to your current location"><event type="run" text="/spawn">${PRIMARY_ERROR_COLOR}Spawn is not set</event></event>
