@@ -1,1 +1,3 @@
-
+permission-missing: "${PRIMARY_ERROR_COLOR}Missing required permission: ${PERMISSION_FAILED}"
+rule-not-passed: "${PRIMARY_ERROR_COLOR}Rule failed: ${RULE_FAILED}"
+argument-required: "${PRIMARY_ERROR_COLOR}Missing argument: ${RULE_FAILED}"
