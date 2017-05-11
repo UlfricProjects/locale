@@ -9,5 +9,14 @@ teleport-starting = ${PRIMARY_COLOR}Teleporting you in ${DETAIL_COLOR}${TELEPORT
 teleport-cancelled = ${PRIMARY_COLOR}Your teleport was ${DETAIL_COLOR}cancelled${PRIMARY_COLOR}.
 spawn-set = <event type="hover" text="${BUTTON_COLOR}Click to go to spawn"><event type="run" text="/spawn">${PRIMARY_COLOR}Spawn was set to your ${DETAIL_COLOR}current location${PRIMARY_COLOR}.</event></event>
 spawn-not-set = <event type="hover" text="${BUTTON_COLOR}Click to set spawn to your current location"><event type="run" text="/spawn">${WARNING_COLOR}Spawn is not set.</event></event>
+homes-panel = ${PRIMARY_COLOR}Homes
+home-teleport = ${PRIMARY_COLOR}Teleporting you to home ${DETAIL_COLOR}${LAST_HOME_TELEPORT}${PRIMARY_COLOR}.
+home-not-set = ${PRIMARY_COLOR}Home not found: ${DETAIL_COLOR}${LAST_HOME_TELEPORT}${PRIMARY_COLOR}.
+sethome-invalid-name = ${PRIMARY_COLOR}Invalid name: ${DETAIL_COLOR}${LAST_HOME_SET}${PRIMARY_COLOR}.
+sethome-max = ${PRIMARY_COLOR}You have reached your maximum home count.
+sethome-already-set = ${PRIMARY_COLOR}You have already set home: ${DETAIL_COLOR}${LAST_HOME_SET}${PRIMARY_COLOR}.
+sethome-set = ${PRIMARY_COLOR}Created home: ${DETAIL_COLOR}${LAST_HOME_SET}${PRIMARY_COLOR}.
+deletehome-use = ${PRIMARY_COLOR}Deleted home: ${DETAIL_COLOR}${LAST_HOME_DELETED}${PRIMARY_COLOR}.
+deletehome-not-set = ${PRIMARY_COLOR}Home not found: ${DETAIL_COLOR}${LAST_HOME_DELETED}${PRIMARY_COLOR}.
 shutdown-disconnect = &6&lSERVER REBOOT\n&7&o${REBOOT_SPASH}\n${PRIMARY_COLOR}Follow us on Twitter ${DETAIL_COLOR}${TWITTER_HANDLE}
 kick-disconnect = ${WARNING_COLOR}You were kicked!\n\n${PRIMARY_COLOR}ID: ${DETAIL_COLOR}${LAST_PUNISHED_ID}\n${PRIMARY_COLOR}Punisher: ${DETAIL_COLOR}${LAST_PUNISHER_NAME}\nReason: ${DETAIL_COLOR}${LAST_PUNISHED_REASON}\n\n&dYou may rejoin the server.
